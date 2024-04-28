@@ -86,3 +86,10 @@ svg {
 .flex-container .item {
   flex: 0 0 auto; /* Ensure items don't grow or shrink */
 }
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
