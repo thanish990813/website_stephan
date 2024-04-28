@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/background.png");
+  background-size: cover; /* Adjust as needed */
+  background-position: center; /* Adjust as needed */
+  /* Optionally, you can add more background properties like repeat, attachment, etc. */
+
+  height: 100vh;
+}
+
+.logo {
+  position: relative;
+}
+
+.logo img {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 100px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.girl-and-icon {
+  text-align: center; /* Center-align the content inside girl-and-icon */
+}
+
+.video-icon,
+.girl-image {
+  display: inline-block; /* Ensure elements stack horizontally */
+}

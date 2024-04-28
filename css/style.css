@@ -1,0 +1,88 @@
+
+.container {
+  position: relative;
+}
+
+.background-image {
+  position: absolute;
+ top: 0%;
+  left: 0%;
+  width: 100;
+  height: auto;
+  z-index: 1;
+}
+.background {
+  background-image: url('background-tennis-bg.png');
+  position: relative;
+}
+
+.overlay-image {
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+}
+.flex-container {
+  display: flex;
+  background-color: rgb(0, 93, 185);
+}
+
+.flex-container > div {
+  background-color: #000fe4;
+  margin: 10px;
+  padding: 120px;
+  font-size: 30px;
+}
+
+.right-title {
+  color: #ff0000;
+  display: inline-block;
+  border-left: 3px solid #a5a5a5;
+  padding-right: 12px;
+}
+
+
+h1 {
+  font-size: 10px;
+}
+
+svg {
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.sporty-testimonial-wrapper{
+	width: 100%;
+	float: left;
+	padding: 60px 0px;
+	background-color: #fafafa;
+}
+
+.testi-block-wrapper{
+	width: 100%;
+}
+.testi-block-wrapper .testi-text{
+	padding: 30px;
+	background-color: #ffffff;
+	box-shadow: 2px 19px 63px rgba(0, 0, 0, 0.05);
+	position: relative;
+}
+.testi-text:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -60px;
+    width: 0;
+    height: 0;
+    border-top: 60px solid white;
+    border-right: 60px solid transparent;
+}
+.testimonial-flex-container {
+  display: flex;
+  flex-wrap: nowrap; /* This ensures items don't wrap to the next line */
+  overflow-x: auto; /* Enable horizontal scrolling if needed */
+}
+
+.flex-container .item {
+  flex: 0 0 auto; /* Ensure items don't grow or shrink */
+}
